@@ -1,0 +1,19 @@
+header > svg {
+    margin: 10px;
+   }
+   
+   .menu > li {
+   list-style: none;
+   display: inline-block;
+   color: orangered;
+   font-weight: bold;
+   margin: 10px;
+   
+   }
+   
+   .menu > li:hover {
+       color: white;
+       background-color: orangered;
+       padding: 12px;
+   
+   }

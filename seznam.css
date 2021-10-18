@@ -1,0 +1,36 @@
+.seznam__sluzby {
+    background-color: rgb(223, 219, 219);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seznam__novinky {
+    background-color: rgb(223, 219, 219);
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 10px;
+    column-gap: 20px;
+    text-align: left;
+}
+
+.seznam__datum {
+    color: darkgray;
+}
+
+h1 {
+    color: black;
+    font-size: 1em;
+}
+
+h2 {
+    color: orangered;
+    font-size: 1em;
+}
